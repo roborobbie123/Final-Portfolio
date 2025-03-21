@@ -75,8 +75,11 @@ p {
 }
 
 #description {
-    margin-left: 1rem;
     margin-bottom: 1rem;
+}
+
+.first {
+    margin-top: 2rem;
 }
 
 img {
@@ -96,4 +99,11 @@ img:hover {
 
 #project {
     margin-bottom: 3rem;
+}
+
+#projects p {
+    padding-top: 1rem;
+    padding-left: 0;
+    margin-right: 8rem;
+    
 }
