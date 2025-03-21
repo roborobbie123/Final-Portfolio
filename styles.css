@@ -1,10 +1,12 @@
 body {
-
     position: relative;
     z-index: 1;
-
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
+}
+p {
+    margin: 0;
+    padding: 20px;
 }
 
 #screen {
@@ -36,14 +38,61 @@ body {
     color: rgb(5, 243, 5);
     position: absolute;
     z-index: 5;
-    top: 15%;
+    top: 12%;
     left: 10%;
-    width: 80%;
-    height: 70%;
+    width: 85%;
+    height: 75%;
     padding: 5px;
     display: flex;
     flex-direction: column;
     font-size: 20px;
     text-shadow: 1px 1px 2px rgb(149, 165, 125), 0 0 1em rgb(149, 165, 125), 0 0 0.2em rgb(149, 165, 125);
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    border-radius: 0.5rem;
 
+}
+
+#title {
+    margin-bottom:1rem;
+}
+
+#links {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#link {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+#link:hover {
+    color: rgb(108, 255, 108);
+    text-shadow: 1px 1px 2px rgb(191, 213, 157), 0 0 1em rgb(191, 213, 157), 0 0 0.2em rgb(191, 213, 157);
+}
+
+#description {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    border: 1px solid rgb(5, 243, 5);
+    box-shadow: 1px 1px 2px rgb(149, 165, 125), 0 0 1em rgb(149, 165, 125), 0 0 0.2em rgb(149, 165, 125);
+    width: 15rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+img:hover {
+    color: rgb(108, 255, 108);
+    box-shadow: 1px 1px 2px rgb(191, 213, 157), 0 0 1em rgb(191, 213, 157), 0 0 0.2em rgb(191, 213, 157);
+}
+
+
+#project {
+    margin-bottom: 3rem;
 }
