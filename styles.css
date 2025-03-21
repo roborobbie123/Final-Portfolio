@@ -1,0 +1,49 @@
+body {
+
+    position: relative;
+    z-index: 1;
+
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+#screen {
+    background: rgb(1, 47, 1);
+    position: relative;
+    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#scanlines {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    opacity: 55%;
+}
+
+#bezel {
+    z-index: 4;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+#content {
+    color: rgb(5, 243, 5);
+    position: absolute;
+    z-index: 5;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 70%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(149, 165, 125), 0 0 1em rgb(149, 165, 125), 0 0 0.2em rgb(149, 165, 125);
+
+}
