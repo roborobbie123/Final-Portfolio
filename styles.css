@@ -82,14 +82,15 @@ p {
 img {
     border: 1px solid rgb(5, 243, 5);
     box-shadow: 1px 1px 2px rgb(149, 165, 125), 0 0 1em rgb(149, 165, 125), 0 0 0.2em rgb(149, 165, 125);
-    width: 15rem;
-    height: 10rem;
+    width: 25rem;
+    height: 15rem;
     border-radius: 1rem;
 }
 
 img:hover {
     color: rgb(108, 255, 108);
     box-shadow: 1px 1px 2px rgb(191, 213, 157), 0 0 1em rgb(191, 213, 157), 0 0 0.2em rgb(191, 213, 157);
+    z-index: 10;
 }
 
 
